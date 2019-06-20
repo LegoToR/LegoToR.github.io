@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 128 128" width="128pt" height="128pt"><defs><clipPath id="_clipPath_YzQj3Drf3oXUkgeoKCtOiAakhN095238"><rect width="128" height="128"/></clipPath></defs><g clip-path="url(#_clipPath_YzQj3Drf3oXUkgeoKCtOiAakhN095238)"><mask id="_mask_RlRDSh84bLMlZsLKBqiW7ZlkfBKH5YJY"><circle vector-effect="non-scaling-stroke" cx="63.999999999999986" cy="64" r="31.20833311158141" fill="white" stroke="none"/></mask><circle vector-effect="non-scaling-stroke" cx="63.999999999999986" cy="64" r="31.20833311158141" fill="rgb(0,0,0)" mask="url(#_mask_RlRDSh84bLMlZsLKBqiW7ZlkfBKH5YJY)" stroke-width="4" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/><circle vector-effect="non-scaling-stroke" cx="63.999999999999986" cy="64" r="31.20833311158141" fill="rgb(0,0,0)"/><mask id="_mask_kDuHkRKmNGxlw3Xz9OOzNHePbJNGhZWP"><circle vector-effect="non-scaling-stroke" cx="64" cy="64.00000000000001" r="26.877990188198368" fill="white" stroke="none"/></mask><circle vector-effect="non-scaling-stroke" cx="64" cy="64.00000000000001" r="26.877990188198368" fill="rgb(255,255,255)" mask="url(#_mask_kDuHkRKmNGxlw3Xz9OOzNHePbJNGhZWP)" stroke-width="4" stroke="rgb(255,255,255)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/><circle vector-effect="non-scaling-stroke" cx="64" cy="64.00000000000001" r="26.877990188198368" fill="rgb(255,255,255)"/><path d="M 48.244 62.208 L 79.756 62.208 C 80.455 62.208 81.023 62.776 81.023 63.475 L 81.023 64.525 C 81.023 65.224 80.455 65.792 79.756 65.792 L 48.244 65.792 C 47.545 65.792 46.977 65.224 46.977 64.525 L 46.977 63.475 C 46.977 62.776 47.545 62.208 48.244 62.208 Z" style="stroke:none;fill:#000000;stroke-miterlimit:10;"/><path d="M 48.244 62.208 L 79.756 62.208 C 80.455 62.208 81.023 62.776 81.023 63.475 L 81.023 64.525 C 81.023 65.224 80.455 65.792 79.756 65.792 L 48.244 65.792 C 47.545 65.792 46.977 65.224 46.977 64.525 L 46.977 63.475 C 46.977 62.776 47.545 62.208 48.244 62.208 Z" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:2;"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128pt" height="128pt" style="isolation:isolate" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c">
+<rect width="128" height="128"/>
+</clipPath>
+</defs>
+<g clip-path="url(#c)">
+<mask id="b">
+<circle cx="64" cy="64" r="31.208" fill="#fff" vector-effect="non-scaling-stroke"/>
+</mask>
+<circle cx="64" cy="64" r="31.208" mask="url(#b)" stroke="#000" stroke-width="4" vector-effect="non-scaling-stroke"/>
+<circle cx="64" cy="64" r="31.208" vector-effect="non-scaling-stroke"/>
+<mask id="a">
+<circle cx="64" cy="64" r="26.878" fill="#fff" vector-effect="non-scaling-stroke"/>
+</mask>
+<circle cx="64" cy="64" r="26.878" fill="#fff" mask="url(#a)" stroke="#fff" stroke-width="4" vector-effect="non-scaling-stroke"/>
+<circle cx="64" cy="64" r="26.878" fill="#fff" vector-effect="non-scaling-stroke"/>
+<path d="m48.244 62.208h31.512c0.699 0 1.267 0.568 1.267 1.267v1.05c0 0.699-0.568 1.267-1.267 1.267h-31.512c-0.699 0-1.267-0.568-1.267-1.267v-1.05c0-0.699 0.568-1.267 1.267-1.267z"/>
+<path d="m48.244 62.208h31.512c0.699 0 1.267 0.568 1.267 1.267v1.05c0 0.699-0.568 1.267-1.267 1.267h-31.512c-0.699 0-1.267-0.568-1.267-1.267v-1.05c0-0.699 0.568-1.267 1.267-1.267z" fill="none" stroke="#000" stroke-linecap="square" stroke-miterlimit="2"/>
+</g>
+</svg>
