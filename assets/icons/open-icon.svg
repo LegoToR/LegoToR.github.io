@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="128pt" height="128pt" style="isolation:isolate" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<clipPath id="c">
+<clipPath id="d">
 <rect width="128" height="128"/>
 </clipPath>
 </defs>
-<g clip-path="url(#c)">
-<mask id="b">
+<g clip-path="url(#d)">
+<clipPath id="e">
+<rect width="128" height="128" fill="#fff"/>
+</clipPath>
+<g clip-path="url(#e)">
+<circle cx="64" cy="64" r="34.666" fill="#fff" vector-effect="non-scaling-stroke"/>
+<mask id="c">
 <circle cx="64" cy="64" r="31.208" fill="#fff" vector-effect="non-scaling-stroke"/>
 </mask>
-<circle cx="64" cy="64" r="31.208" mask="url(#b)" stroke="#000" stroke-width="4" vector-effect="non-scaling-stroke"/>
+<circle cx="64" cy="64" r="31.208" mask="url(#c)" stroke="#000" stroke-width="4" vector-effect="non-scaling-stroke"/>
 <circle cx="64" cy="64" r="31.208" vector-effect="non-scaling-stroke"/>
 <mask id="a">
 <circle cx="64" cy="64" r="26.878" fill="#fff" vector-effect="non-scaling-stroke"/>
@@ -17,6 +22,12 @@
 <circle cx="64" cy="64" r="26.878" fill="#fff" mask="url(#a)" stroke="#fff" stroke-width="4" vector-effect="non-scaling-stroke"/>
 <circle cx="64" cy="64" r="26.878" fill="#fff" vector-effect="non-scaling-stroke"/>
 <path d="m48.244 62.208h31.512c0.699 0 1.267 0.568 1.267 1.267v1.05c0 0.699-0.568 1.267-1.267 1.267h-31.512c-0.699 0-1.267-0.568-1.267-1.267v-1.05c0-0.699 0.568-1.267 1.267-1.267z"/>
-<path d="m48.244 62.208h31.512c0.699 0 1.267 0.568 1.267 1.267v1.05c0 0.699-0.568 1.267-1.267 1.267h-31.512c-0.699 0-1.267-0.568-1.267-1.267v-1.05c0-0.699 0.568-1.267 1.267-1.267z" fill="none" stroke="#000" stroke-linecap="square" stroke-miterlimit="2"/>
+<mask id="b" x="-200%" y="-200%" width="400%" height="400%">
+<rect x="-200%" y="-200%" width="400%" height="400%" fill="#fff"/>
+<path d="m48.244 62.208h31.512c0.699 0 1.267 0.568 1.267 1.267v1.05c0 0.699-0.568 1.267-1.267 1.267h-31.512c-0.699 0-1.267-0.568-1.267-1.267v-1.05c0-0.699 0.568-1.267 1.267-1.267z"/>
+</mask>
+<path d="m48.244 62.208h31.512c0.699 0 1.267 0.568 1.267 1.267v1.05c0 0.699-0.568 1.267-1.267 1.267h-31.512c-0.699 0-1.267-0.568-1.267-1.267v-1.05c0-0.699 0.568-1.267 1.267-1.267z" fill="none" mask="url(#b)" stroke="#000" stroke-linecap="square" stroke-miterlimit="2" stroke-width="2" vector-effect="non-scaling-stroke"/>
+<path d="m48.244 62.208h31.512c0.699 0 1.267 0.568 1.267 1.267v1.05c0 0.699-0.568 1.267-1.267 1.267h-31.512c-0.699 0-1.267-0.568-1.267-1.267v-1.05c0-0.699 0.568-1.267 1.267-1.267z" fill="none"/>
+</g>
 </g>
 </svg>
