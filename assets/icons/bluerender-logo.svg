@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="512pt" height="512pt" style="isolation:isolate" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<clipPath id="a">
+<clipPath id="f">
 <rect width="512" height="512"/>
 </clipPath>
 </defs>
-<g clip-path="url(#a)" fill="#006ddf">
+<g clip-path="url(#f)">
+<clipPath id="g">
+<rect width="512" height="512" fill="#fff"/>
+</clipPath>
+<g clip-path="url(#g)">
+<g fill="#006ddf">
 <rect width="512" height="512"/>
-<path d="m23 205 233-110v120l-233 110v-120z" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-width="6" vector-effect="non-scaling-stroke"/>
-<path d="m489 205-233-110v120l233 110v-120z" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-width="6" vector-effect="non-scaling-stroke"/>
+<mask id="e" x="-200%" y="-200%" width="400%" height="400%">
+<rect x="-200%" y="-200%" width="400%" height="400%" fill="#fff"/>
+<path d="m23 205 233-110v120l-233 110v-120z" fill="#000"/>
+</mask>
+<path d="m23 205 233-110v120l-233 110v-120 0z" mask="url(#e)" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-opacity="100" stroke-width="2" vector-effect="non-scaling-stroke"/>
+<path d="m23 205 233-110v120l-233 110v-120z"/>
+<mask id="a" x="-200%" y="-200%" width="400%" height="400%">
+<rect x="-200%" y="-200%" width="400%" height="400%" fill="#fff"/>
+<path d="m489 205-233-110v120l233 110v-120z" fill="#000"/>
+</mask>
+<path d="m489 205-233-110v120l233 110v-120 0z" mask="url(#a)" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-opacity="100" stroke-width="2" vector-effect="non-scaling-stroke"/>
+<path d="m489 205-233-110v120l233 110v-120z"/>
 <rect x="139.5" y="233.5" width="233" height="101.5"/>
-<path d="m256 315 233-110v120l-233 110v-120z" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-width="6" vector-effect="non-scaling-stroke"/>
-<path d="m256 315-233-110v120l233 110v-120z" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-width="6" vector-effect="non-scaling-stroke"/>
-<path d="m360.01 205c-2.545 28.369-48.176 51-104.01 51s-101.47-22.631-104.01-51h-0.112v-2.5-63h208.25v63 2.5h-0.112z" fill-rule="evenodd" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-width="6" vector-effect="non-scaling-stroke"/>
-<ellipse cx="256" cy="139.5" rx="104.12" ry="53.5" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-width="6" vector-effect="non-scaling-stroke"/>
+<mask id="d" x="-200%" y="-200%" width="400%" height="400%">
+<rect x="-200%" y="-200%" width="400%" height="400%" fill="#fff"/>
+<path d="m256 315 233-110v120l-233 110v-120z" fill="#000"/>
+</mask>
+<path d="m256 315 233-110v120l-233 110v-120 0z" mask="url(#d)" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-opacity="100" stroke-width="2" vector-effect="non-scaling-stroke"/>
+<path d="m256 315 233-110v120l-233 110v-120z"/>
+<mask id="c" x="-200%" y="-200%" width="400%" height="400%">
+<rect x="-200%" y="-200%" width="400%" height="400%" fill="#fff"/>
+<path d="m256 315-233-110v120l233 110v-120z" fill="#000"/>
+</mask>
+<path d="m256 315-233-110v120l233 110v-120 0z" mask="url(#c)" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-opacity="100" stroke-width="2" vector-effect="non-scaling-stroke"/>
+<path d="m256 315-233-110v120l233 110v-120z"/>
+<mask id="b" x="-200%" y="-200%" width="400%" height="400%">
+<rect x="-200%" y="-200%" width="400%" height="400%" fill="#fff"/>
+<path d="m360.01 205c-2.545 28.369-48.176 51-104.01 51s-101.47-22.631-104.01-51h-0.112v-2.5-63h208.25v63 2.5h-0.112z" fill="#000" fill-rule="evenodd"/>
+</mask>
+<path d="m360.01 205c-2.545 28.369-48.176 51-104.01 51s-101.47-22.631-104.01-51h-0.112v-2.5-63h208.25v63 2.5h-0.112v0z" fill-rule="evenodd" mask="url(#b)" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-opacity="100" stroke-width="2" vector-effect="non-scaling-stroke"/>
+<path d="m360.01 205c-2.545 28.369-48.176 51-104.01 51s-101.47-22.631-104.01-51h-0.112v-2.5-63h208.25v63 2.5h-0.112z" fill-rule="evenodd"/>
+<ellipse cx="256" cy="139.5" rx="104.12" ry="53.5" stroke="#fff" stroke-linecap="square" stroke-miterlimit="3" stroke-opacity="100" vector-effect="non-scaling-stroke"/>
+</g>
+</g>
 </g>
 </svg>
