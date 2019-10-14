@@ -6845,7 +6845,7 @@ h1.underlined-header {
 
 @media screen and (max-width: 690px) {
   .section-container.with-small-feature-image {
-    background-image: none !important;
+    background-image: /* none !important; */
   }
 }
 
