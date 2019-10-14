@@ -6843,9 +6843,16 @@ h1.underlined-header {
   background-size: 30%;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 992px) {
   .section-container.with-small-feature-image {
-    background-image: /* none !important; */
+    background: url(/assets/renderman-contact-success-41d7f9331ef07bdd2cbbd3725916d0d08565132b120f58b2eb916e37e0d51ae7.png) 80% 90% no-repeat;
+    background-size: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-container.with-small-feature-image {
+    background-image: none !important;
   }
 }
 
