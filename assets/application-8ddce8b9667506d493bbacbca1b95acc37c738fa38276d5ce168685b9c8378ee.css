@@ -6845,8 +6845,8 @@ h1.underlined-header {
 
 @media screen and (max-width: 992px) {
   .section-container.with-small-feature-image {
-    background: url(/assets/renderman-contact-success-41d7f9331ef07bdd2cbbd3725916d0d08565132b120f58b2eb916e37e0d51ae7.png) 100% 60% no-repeat;
-    background-size: 60%;
+    background: url(/assets/renderman-contact-success-41d7f9331ef07bdd2cbbd3725916d0d08565132b120f58b2eb916e37e0d51ae7.png) 150% 80% no-repeat;
+    background-size: 50%;
   }
 }
 
