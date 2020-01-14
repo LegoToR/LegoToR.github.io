@@ -618,7 +618,7 @@
 
 <li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">How can USD improve my pipeline? </a>
 <div class="accordion-content" data-tab-content="">
-<p><span style="font-size: 12pt; color: #444;">USD is a technology developed at Pixar Animation Studios to address the challenges of feature film production. In production environments using multiple applications (such as Maya, Katana, and Houdini), USD can enable a new level of reliable, efficient, flexible collaboration, including sharing of animated geometry, materials, and lights. Complex scenes constructed from USD assets need not be expanded entirely in your front-end application, meaning that productions can scale larger on existing tooling. Features such as lightweight conditional edits and super fast variation management and instance generation help artists respond creatively to increasing production demands. With USD support planned or released from vendors like SideFX, Autodesk, Foundry, and Nvidia, this new technology will play an increasingly important role in production pipelines, and RenderMan&rsquo;s support for USD is a critical part of future studio roadmaps across the industry. </span></p>
+<p><span style="font-size: 12pt; color: #444;">USD is a technology developed at Pixar Animation Studios to address the challenges of feature film production. In production environments using multiple applications (such as Maya, Katana, and Houdini), USD can enable a new level of reliable, efficient, flexible collaboration, including sharing of animated geometry, materials, and lights. USD also serves as an interchange and augmentation of 3D data which and is used by Apple in their augmented reality systems. USD support is planned or released from vendors like SideFX, Autodesk, Foundry, and Nvidia, this new technology will play an increasingly important role across the industry. </span></p>
 </div>
 </li>
 
@@ -635,19 +635,19 @@
 <div class="row">
 <div class="columns">
 <ul class="accordion" data-accordion="" data-multi-expand="true" data-allow-all-closed="true">
-<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">What 3D applications does RenderMan support?</a>
+<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">Where can I find the latest versions of Lego Digital Designer?</a>
 <div class="accordion-content" data-tab-content="">
-<p><span style="font-size: 12pt; color: #444;">Pixar provides artist-friendly, deeply integrated RenderMan interface plug-ins for Autodesk's Maya&reg;, The Foundry's KATANA&reg;, and Side Effect&rsquo;s Houdini&reg;. &nbsp;Please refer to our <a href="/tech-specs">tech-specs</a> page for details of version compatibility for each new release.</span></p>
+<p><span style="font-size: 12pt; color: #444;">The Windows version is still available <a href="/tech-specs">here</a> (MD5 Checksum: 1234) while the OS X version is <a href="/tech-specs">here</a> (MD5 Checksum: 1234). A mirror on google drive is also available here.</span></p>
 </div>
 </li>
-<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">What about support for other applications like Cinema4D and Blender?</a>
+<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">What about support for other applications or formats like LCad?</a>
 <div class="accordion-content" data-tab-content="">
-<p><span style="font-size: 12pt; color: #444;">We track the applications that are most important to productions at Pixar, ILM, and our community of commercial customer studios, and we frequently evaluate additional deep integrations within other Digital Content Creation applications. An important aspect of RenderMan version 22 has been re-engineering our live rendering interfaces specifically to allow easier, faster, and better integrations into new artist tools. We understand the power and capabilities of applications such as Cinema4D and Blender, and the strong interest in them, particularly from the Non-Commercial RenderMan community. We are pursuing integrations for these applications, and others, sometimes through third parties, as commercial priorities allow. Please contact us at <a href="mailto:rendermansales@pixar.com">rendermansales@pixar.com</a> and we can help you find the best solution for your requirements.</span></p>
+<p><span style="font-size: 12pt; color: #444;">I track other applications and formats. An important aspect of LegoToR version 0.4.8.1 has been re-engineering to specifically to allow USD support. I understand the power and capabilities of applications such as LCAD, and the strong interest in them. As LegoTor is completely open-source I encourage a fork or pull requests to make that happen. </span></p>
 </div>
 </li>
-<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">Is Tractor included in the latest version of RenderMan?</a>
+<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">Is Linux supported in latest version of LegoToR</a>
 <div class="accordion-content" data-tab-content="">
-<p><span style="font-size: 12pt; color: #444;">Yes. New purchases of RenderMan include a matching number of Tractor licenses. Tractor is also available separately at $100 per license.</span></p>
+<p><span style="font-size: 12pt; color: #444;">Yes. LegoToR uses Python and should work on Linux, as does RenderMan. While no Linux version of LDD is available you can use it's library on Linux to render your files. </span></p>
 </div>
 </li>
 </ul>
@@ -663,16 +663,12 @@
 <div class="row">
 <div class="columns">
 <ul class="accordion" data-accordion="" data-multi-expand="true" data-allow-all-closed="true">
-<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">What is RenderMan XPU, how does it use GPU hardware?</a>
+<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">Does rendering make use of GPU hardware?</a>
 <div class="accordion-content" data-tab-content="">
 <p><span style="font-size: 12pt; color: #444;">Pixar has been using and developing various special purpose GPU renderers internally for several years. Building on that experience, the experimental RenderMan XPU project is a flexible and modern approach to combining CPU+GPU computations for faster rendering when powerful GPU processors are available &ndash; though it can always fully render with the CPU only if necessary. Development of this exciting internal project is ongoing, and achieving significant milestones, but no external release date has been set. </span></p>
 </div>
 </li>
-<li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">What is the roadmap for USD and RenderMan?</a>
-<div class="accordion-content" data-tab-content="">
-<p><span style="font-size: 12pt; color: #444;">Inside Pixar, the RenderMan and USD teams work closely with each other, both on studio filmmaking projects as well as on crafting useful next-generation pipeline tools for the animation and VFX communities. Both teams also draw significant inspiration and feedback from those communities, and are committed to making the tools work well together in many contexts. &nbsp;RenderMan version 23 is a major evolution in this ongoing development and exemplifies our commitment to active USD support.</span></p>
-</div>
-</li>
+
 <li class="accordion-item" data-accordion-item=""><a href="#" class="accordion-title" style="font-size: 20pt; color: black;">What is the relationship between RenderMan and other R&amp;D groups within Disney?</a>
 <div class="accordion-content" data-tab-content="">
 <p><span style="font-size: 12pt; color: #444;">There are a number of research initiatives within the Disney Studio organization including Pixar, Walt Disney Feature Animation (WDAS), Industrial Light &amp; Magic (ILM), Disney Research in Zurich, and others. Each of these groups is separate so they pursue different approaches to rendering and solving production problems in different ways. No other rendering R&amp;D effort can compare with the resources and depth of experience embodied in the Disney organization and its decades of experience defining the state of the art in animation and film rendering. RenderMan is the conduit through which tools and techniques that derive from this R&amp;D effort will be channeled into the public domain. Pixar and these other Disney groups describe their significant contributions regularly at commercial and technical research venues around the world.</span></p>
