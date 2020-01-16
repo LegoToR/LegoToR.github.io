@@ -230,6 +230,18 @@
   margin-top: -19px;
 }
 
+.twentytwenty-left-arrow,.twentytwenty-right-arrow,.twentytwenty-up-arrow,.twentytwenty-down-arrow {
+  width: 0;
+  height: 0;
+  border: 6px inset transparent;
+  position: absolute;
+}
+
+.twentytwenty-left-arrow,.twentytwenty-right-arrow {
+  top: 50%;
+  margin-top: -6px;
+}
+
 .twentytwenty-container {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
