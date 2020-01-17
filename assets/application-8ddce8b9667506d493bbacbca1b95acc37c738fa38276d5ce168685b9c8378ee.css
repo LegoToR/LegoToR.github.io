@@ -4571,7 +4571,11 @@ span.article-details-type {
   padding-top: 0.25rem;
 }
 
-.sticky.light .menu.filter li a {
+.sticky.light .menu.filter,.profile .menu.filter {
+  padding-top: 0.25rem;
+}
+
+.sticky.light .menu.filter li a,.profile .menu.filter li a {
   font-size: 0.875rem;
   font-family: 'Open Sans', sans-serif;
   color: #333;
@@ -4586,26 +4590,26 @@ span.article-details-type {
 }
 
 @media screen and (max-width: 690px) {
-  .sticky.light .menu.filter li a {
+  .sticky.light .menu.filter li a,.profile .menu.filter li a {
     margin-left: 2px;
     margin-right: 2px;
   }
 }
 
 @media screen and (min-width: 691px) and (max-width: 760px) {
-  .sticky.light .menu.filter li a {
+  .sticky.light .menu.filter li a,.profile .menu.filter li a {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
-.sticky.light .menu.filter li a:hover {
+.sticky.light .menu.filter li a:hover,.profile .menu.filter li a:hover {
   box-shadow: 0 1px 0px 0px #00548B;
   transition: all 0.4s ease-out;
   text-decoration: none;
 }
 
-.sticky.light .menu.filter li a.is-active {
+.sticky.light .menu.filter li a.is-active,.profile .menu.filter li a.is-active {
   box-shadow: 0 1px 0px 0px #333;
 }
 
