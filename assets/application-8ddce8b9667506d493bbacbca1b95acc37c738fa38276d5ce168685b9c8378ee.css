@@ -10699,11 +10699,6 @@ img.gravatar {
   border-radius: 50%;
 }
 
-#answerbox[placeholder] {
-  text-align: center;
-  color: #ccc;
-}
-
 span.input-group-label {
   cursor: pointer;
 }
