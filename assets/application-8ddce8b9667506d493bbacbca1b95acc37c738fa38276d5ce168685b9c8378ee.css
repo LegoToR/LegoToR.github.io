@@ -2008,16 +2008,6 @@ html,body {
   position: relative;
 }
 
-.sticky,.sticky.is-anchored {
-  position: relative;
-}
-
-.sticky {
-  width: 100%;
-  max-height: 58px;
-  z-index: 1;
-}
-
 .sticky {
   position: absolute;
   z-index: 0;
@@ -4503,16 +4493,6 @@ span.text-right {
   transition: all 0.4s ease-out;
 }
 
-.sticky {
-  position: relative;
-}
-
-.sticky {
-  width: 100%;
-  max-height: 58px;
-  z-index: 1;
-}
-
 .article-details {
   max-height: 58px;
   padding-left: 11px;
@@ -4569,6 +4549,78 @@ span.article-details-type {
 
 .sticky.light .menu.filter {
   padding-top: 0.25rem;
+}
+
+.sticky.light .menu.filter,.profile .menu.filter {
+  padding-top: 0.25rem;
+}
+
+.sticky.light .menu.filter li a,.profile .menu.filter li a {
+  font-size: 0.875rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  text-transform: capitalize;
+  padding-left: 0.6875rem;
+  padding-right: 0.6875rem;
+  margin-left: 0.1875rem;
+  margin-right: 0.1875rem;
+  line-height: 2rem;
+  transition: all 0.4s ease-out;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 690px) {
+  .sticky.light .menu.filter li a,.profile .menu.filter li a {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+@media screen and (min-width: 691px) and (max-width: 760px) {
+  .sticky.light .menu.filter li a,.profile .menu.filter li a {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+.sticky,.sticky.is-anchored {
+  position: relative;
+}
+
+.sticky {
+  width: 100%;
+  max-height: 58px;
+  z-index: 1;
+}
+
+.sticky.stories,.sticky.stories-landing {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  display: none;
+}
+
+.sticky.stories.is-stuck,.sticky.stories-landing.is-stuck {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.sticky-stories-bar {
+  position: absolute;
+  width: 100%;
+}
+
+.sticky.light .logo-container {
+  width: 0;
+  overflow: hidden;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.sticky.light .logo-container img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
 }
 
 .sticky.light .menu.filter,.profile .menu.filter {
