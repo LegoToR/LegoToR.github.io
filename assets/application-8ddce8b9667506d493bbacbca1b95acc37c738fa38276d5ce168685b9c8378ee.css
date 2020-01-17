@@ -2008,6 +2008,10 @@ html,body {
   position: relative;
 }
 
+.sticky,.sticky.is-anchored {
+  position: relative;
+}
+
 .sticky {
   position: absolute;
   z-index: 0;
@@ -2021,6 +2025,12 @@ html,body {
 
 .sticky.is-stuck.is-at-top {
   top: 0;
+}
+
+.sticky.is-anchored {
+  position: absolute;
+  left: auto;
+  right: auto;
 }
 
 table {
