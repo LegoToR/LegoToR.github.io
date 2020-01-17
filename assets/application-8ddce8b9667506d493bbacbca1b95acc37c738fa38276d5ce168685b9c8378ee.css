@@ -10719,48 +10719,6 @@ span.input-group-label {
   line-height: 0;
 }
 
-#answers-tabs-container {
-  border-bottom: 1px solid #f5f5f5;
-  margin-bottom: 3rem;
-}
-
-#answers-space-tabs {
-  border: none;
-  cursor: pointer;
-}
-
-#answers-space-tabs .tabs-title {
-  display: inline-block;
-  float: none;
-}
-
-#answers-space-tabs li {
-  padding-left: .5rem;
-  padding-right: .5rem;
-  border-right: 1px solid #f5f5f5;
-}
-
-#answers-space-tabs li:first-child {
-  border-left: 1px solid #f5f5f5;
-}
-
-#answers-space-tabs li a {
-  color: black;
-  opacity: 0.5;
-}
-
-#answers-space-tabs li a:hover {
-  opacity: 1.0;
-}
-
-#answers-space-tabs li.is-active {
-  border-bottom: 2px solid #3adb76;
-}
-
-#answers-space-tabs li.is-active a {
-  opacity: 1.0;
-}
-
 #questions-container {
   padding: 0 5px 3rem 5px;
   min-height: 300px;
