@@ -2013,6 +2013,12 @@ html,body {
 }
 
 .sticky {
+  width: 100%;
+  max-height: 58px;
+  z-index: 1;
+}
+
+.sticky {
   position: absolute;
   z-index: 0;
   transform: translate3d(0, 0, 0);
@@ -2027,10 +2033,18 @@ html,body {
   top: 0;
 }
 
+.sticky.is-stuck.is-at-bottom {
+  bottom: 0;
+}
+
 .sticky.is-anchored {
   position: absolute;
   left: auto;
   right: auto;
+}
+
+.sticky.is-anchored.is-at-bottom {
+  bottom: 0;
 }
 
 table {
