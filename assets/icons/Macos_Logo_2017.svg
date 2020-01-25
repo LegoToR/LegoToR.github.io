@@ -5,10 +5,6 @@
 </defs>
 <style type="text/css">.st0{fill:url(#a);}
 	.st1{fill:#515151;}</style>
-<g transform="matrix(1 0 0 .98477 0 6.083)" fill="#4d4d4d" filter="url(#filter1002)">
-<path class="st0" d="m400.9 202.3c0-110-87.1-197.2-197.2-197.2-110 0.1-197.1 87.2-197.1 197.2s87.1 197.2 197.2 197.2 197.1-87.1 197.1-197.2z"/>
-<path class="st0" d="m400.9 202.3c0-110-87.1-197.2-197.2-197.2-110 0.1-197.1 87.2-197.1 197.2s87.1 197.2 197.2 197.2 197.1-87.1 197.1-197.2z"/>
-</g>
 <g fill="url(#b)">
 <linearGradient id="a" x1="203.72" x2="203.72" y1="7.7039" y2="402.03" gradientTransform="matrix(1 0 0 -1 0 407.21)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#F2F2F2" offset="0"/>
