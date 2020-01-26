@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><filter id="a" x="-7%" y="-5%" width="114.3%" height="114.3%"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.240942029 0"/></filter><filter id="d" x="-1%" y="-1%" width="101%" height="102%"><feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/><feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.529296875 0"/></filter><filter id="g" x="-1%" y="-1%" width="101.9%" height="103%"><feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1"/><feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/><feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.258823529 0 0 0 0 0.137254902 0 0 0 0 0.431372549 0 0 0 0.703549592 0"/></filter><linearGradient id="c" x1="50%" x2="50%" y2="100%"><stop stop-color="#FEFEFE" offset="0"/><stop stop-color="#E0E0E0" offset="1"/></linearGradient><linearGradient id="f" x1="50%" x2="50%" y1="100%"><stop stop-color="#492779" offset="0"/><stop stop-color="#892793" offset="1"/></linearGradient><circle id="b" cx="64" cy="64" r="56"/><path id="e" d="M12 64c0 23 15 43 36 49 2 1 3-1 3-2v-10c-13 3-16-3-17-6l-6-7c-2-1-4-4 0-4s7 4 8 6c5 8 12 5 15 4 1-3 2-6 4-7-12-1-24-6-24-26 0-5 2-10 5-14 0-1-2-6 1-13 0 0 4-2 14 5a48 48 0 0126 0c10-7 14-5 14-5 3 7 1 12 1 13 3 4 5 9 5 14 0 20-12 25-23 26 1 2 3 5 3 10v14c0 1 1 3 4 2a52 52 0 10-69-49z"/></defs><g fill="none" fill-rule="evenodd"><path d="M0 0h128v128H0z"/><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#FFF" fill-opacity="0" stroke="#BABABA" stroke-opacity=".5" stroke-width="2" xlink:href="#b"/><circle cx="64" cy="64" r="56" fill="url(#c)"/><use fill="#000" filter="url(#d)" xlink:href="#e"/><use fill="url(#f)" xlink:href="#e"/><use fill="#000" filter="url(#g)" xlink:href="#e"/></g></svg>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <filter id="a" width="114.3%" height="114.3%" x="-7%" y="-5%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.240942029 0"/>
+    </filter>
+    <filter id="d" width="101%" height="102%" x="-1%" y="-1%">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.529296875 0"/>
+    </filter>
+    <filter id="g" width="101.9%" height="103%" x="-1%" y="-1%">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.258823529 0 0 0 0 0.137254902 0 0 0 0 0.431372549 0 0 0 0.703549592 0"/>
+    </filter>
+    <linearGradient id="c" x1="50%" x2="50%" y2="100%">
+      <stop offset="0" stop-color="#FEFEFE"/>
+      <stop offset="1" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <linearGradient id="f" x1="50%" x2="50%" y1="100%">
+      <stop offset="0" stop-color="#492779"/>
+      <stop offset="1" stop-color="#892793"/>
+    </linearGradient>
+    <circle id="b" cx="64" cy="64" r="56"/>
+    <path id="e" d="M12 64c0 23 15 43 36 49 2 1 3-1 3-2v-10c-13 3-16-3-17-6l-6-7c-2-1-4-4 0-4s7 4 8 6c5 8 12 5 15 4 1-3 2-6 4-7-12-1-24-6-24-26 0-5 2-10 5-14 0-1-2-6 1-13 0 0 4-2 14 5a48 48 0 0126 0c10-7 14-5 14-5 3 7 1 12 1 13 3 4 5 9 5 14 0 20-12 25-23 26 1 2 3 5 3 10v14c0 1 1 3 4 2a52 52 0 10-69-49z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M0 0h128v128H0z"/>
+    <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FFF" fill-opacity="0" stroke="#BABABA" stroke-opacity=".5" stroke-width="2" xlink:href="#b"/>
+    <circle cx="64" cy="64" r="56" fill="url(#c)"/>
+    <use fill="#000" filter="url(#d)" xlink:href="#e"/>
+    <use fill="url(#f)" xlink:href="#e"/>
+    <use fill="#000" filter="url(#g)" xlink:href="#e"/>
+  </g>
+</svg>
