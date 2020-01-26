@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="512pt" height="512pt" style="isolation:isolate" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<clipPath id="a">
-<rect width="512" height="512"/>
-</clipPath>
-</defs>
-<g clip-path="url(#a)">
-<rect width="512" height="512" fill="#006ddf"/>
-<path d="m256 95-233 110v120l233-110 233 110v-120l-233-110z" fill="#fff"/>
-<path d="m255 110.67-218.33 99.376v99.707h437.67v-99.707l-219.33-99.376z" fill="#006ddf"/>
-<path d="m256 315 233-110v120l-132.31 62.464-100.69 47.536-233-110v-120l233 110z" fill="#fff"/>
-<path d="m256 335.08 218.33-106.33v81l-218.33 108.5-219.33-108.5v-81l219.33 106.33z" fill="#006ddf"/>
-<path d="m360.01 205c-2.545 28.369-48.176 51-104.01 51s-101.47-22.631-104.01-51h-0.112v-2.5-63h208.25v63 2.5h-0.112z" fill="#fff" fill-rule="evenodd"/>
-<path d="m348.08 198.25c-2.277 25.447-43.113 45.747-93.082 45.747s-90.805-20.3-93.082-45.747h-0.1v-2.242-56.511h186.36v56.511 2.242h-0.1z" fill="#006ddf" fill-rule="evenodd"/>
-<ellipse cx="256" cy="139.5" rx="104.12" ry="53.5" fill="#fff" vector-effect="non-scaling-stroke"/>
-<ellipse cx="256" cy="139.5" rx="93.182" ry="41.5" fill="#006ddf" vector-effect="non-scaling-stroke"/>
-<rect x="246.79" y="320" width="18.416" height="104" fill="#fff"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="isolation:isolate">
+  <defs>
+    <clipPath id="a">
+      <path d="M0 0h512v512H0z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)">
+    <path fill="#006ddf" d="M0 0h512v512H0z"/>
+    <path fill="#fff" d="M256 95L23 205v120l233-110 233 110V205L256 95z"/>
+    <path fill="#006ddf" d="M255 111L37 210v100h437V210l-219-99z"/>
+    <path fill="#fff" d="M256 315l233-110v120l-132 62-101 48L23 325V205l233 110z"/>
+    <path fill="#006ddf" d="M256 335l218-106v81L256 418 37 310v-81l219 106z"/>
+    <path fill="#fff" fill-rule="evenodd" d="M360 205c-3 28-48 51-104 51s-101-23-104-51v-65h208v65z"/>
+    <path fill="#006ddf" fill-rule="evenodd" d="M348 198c-2 26-43 46-93 46s-91-20-93-46v-59h186v59z"/>
+    <ellipse cx="256" cy="139.5" fill="#fff" rx="104.1" ry="53.5" vector-effect="non-scaling-stroke"/>
+    <ellipse cx="256" cy="139.5" fill="#006ddf" rx="93.2" ry="41.5" vector-effect="non-scaling-stroke"/>
+    <path fill="#fff" d="M247 320h18v104h-18z"/>
+  </g>
 </svg>
