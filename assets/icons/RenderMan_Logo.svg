@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <path fill="#fff" d="M0 0h256v256H0z"/>
   <path fill="#049afe" d="M204 217h-62l-27-51h-9v50H52V41c2-2 5-2 7-2l75 1c7 0 14 1 20 3 24 6 40 21 44 45 3 26-2 49-26 64l-2 2-1 1 35 62zm-97-93h22c9-1 14-7 14-17 1-11-3-18-12-20-8-2-16-1-24-1v38z"/>
