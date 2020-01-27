@@ -6,7 +6,7 @@
   <path fill="#006ddf" d="M256 335l218-106v81L256 418 37 310v-81l219 106z"/>
   <path fill="#fff" d="M360 205c-3 28-48 51-104 51s-101-23-104-51v-65h208v65z"/>
   <path fill="#006ddf" d="M348 198c-2 26-43 46-93 46s-91-20-93-46v-59h186v59z"/>
-  <ellipse cx="256" cy="139.5" fill="#fff" rx="104.1" ry="53.5"/>
-  <ellipse cx="256" cy="139.5" fill="#006ddf" rx="93.2" ry="41.5"/>
+  <ellipse cx="256" cy="140" fill="#fff" rx="104" ry="54"/>
+  <ellipse cx="256" cy="140" fill="#006ddf" rx="93" ry="42"/>
   <path fill="#fff" d="M247 320h18v104h-18z"/>
 </svg>
