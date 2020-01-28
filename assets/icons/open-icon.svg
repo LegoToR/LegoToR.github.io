@@ -1,18 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <defs>
-    <clipPath id="a">
-      <path d="M0 0h128v128H0z"/>
-    </clipPath>
-  </defs>
-  <g clip-path="url(#a)">
-    <clipPath id="b">
-      <path fill="#fff" d="M0 0h128v128H0z"/>
-    </clipPath>
-    <g clip-path="url(#b)">
-      <circle cx="64" cy="64" r="34.7" fill="#fff" vector-effect="non-scaling-stroke"/>
-      <circle cx="64" cy="64" r="31.2" stroke="#000" stroke-width="4" mask="url(#b)" vector-effect="non-scaling-stroke"/>
-      <circle cx="64" cy="64" r="26.9" fill="#fff" stroke="#fff" stroke-width="4" mask="url(#a)" vector-effect="non-scaling-stroke"/>
-      <path stroke="#000" stroke-linecap="square" stroke-miterlimit="2" stroke-width="2" d="M48 62h32l1 1v2l-1 1H48l-1-1v-2l1-1z" vector-effect="non-scaling-stroke"/>
-    </g>
-  </g>
+  <circle cx="64" cy="64" r="35" fill="#fff"/>
+  <circle cx="64" cy="64" r="31"/>
+  <circle cx="64" cy="64" r="27" fill="#fff"/>
+  <path d="M48 62h32l1 1v2l-1 1H48l-1-1v-2l1-1z"/>
 </svg>
