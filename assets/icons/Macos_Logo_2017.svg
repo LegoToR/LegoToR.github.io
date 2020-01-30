@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <linearGradient id="a" x1="204" x2="204" y1="8" y2="402" gradientTransform="matrix(1 0 0 -1 0 407)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="a" x1="204" x2="204" y1="402" y2="8" gradientUnits="userSpaceOnUse">
     <stop offset="0" stop-color="#F2F2F2"/>
     <stop offset="1" stop-color="#FEFEFE"/>
   </linearGradient>
