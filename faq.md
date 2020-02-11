@@ -8,3 +8,6 @@ A mirror on google drive is also available here
 ## What about support for other applications or formats like MLCAD, LDraw or Stud.io?
 
 I track other applications and formats. An important aspect of LegoToR version 0.4.8.1 has been re-engineering specifically support USD. I understand the power and capabilities of applications and formats such as MLCAD, LDraw or Stud.io, and the strong interest in them. As LegoTor is completely open-source I encourage a fork or pull requests to make that happen.
+
+# The Future Of LegoToR
+bladaddaa
