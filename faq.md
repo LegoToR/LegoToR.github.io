@@ -11,4 +11,4 @@ I track other applications and formats. An important aspect of LegoToR version 0
 
 # The Future Of LegoToR
 ## Does rendering make use of GPU hardware?
-Pixar has been using and developing various special purpose GPU renderers internally and there is an experimental RenderMan XPU project to combine CPU+GPU computations for faster rendering when powerful GPU processors are available – though it can always fully render with the CPU only if necessary. So far there is no external release date by Pixar yet. Once it is available LegoToR plans to support is as well.
+Pixar has been using and developing various special purpose GPU renderers internally and there is an experimental RenderMan XPU project to combine CPU+GPU computations for faster rendering when powerful GPU processors are available – though it can always fully render with the CPU only if necessary. So far there is no external release date announced by Pixar yet. Once it is available LegoToR plans to support is as well.
