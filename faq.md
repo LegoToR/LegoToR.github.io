@@ -32,3 +32,18 @@ Create an issue in the github repository with OS information, LDD version and at
 
 ## What is the biggest model size LegoToR supports?
 Limitation is more on LDD itself to create models and on your computer to render. LDD supports approximately 100k parts, but numbers depend on complexity of the parts themselves. As LDD is still a 32bit application it can not handle more then ~2GB of RAM (2GB/2GB Application/Kernel). Having said that LegoToR has no problem in converting for example the [UCS Millennium Falcon™ 75192](https://www.lego.com/en-us/product/millennium-falcon-75192) in approximately 40 seconds on my machine.
+
+# Others
+
+## Where can I learn more about LDD’s file format?
+A good starting read is at Eurobricks [here](https://www.eurobricks.com/forum/index.php?/forums/topic/92863-understanding-ldds-lxfml-schema/).
+
+## What coordinate system does LDD use?
+LDD uses a right handed coordinate system. RenderMan is a left handed [coordinate system](https://renderman.pixar.com/resources/RenderMan_20/insideOutside.html). USD is right handed. Transformations in LDD are standard 3D transformation matrices. Just 4 rows, 3 numbers each and an added 4th column containing just 0, 0, 0, 1.
+
+![Left- and Right-handed Coordinate System](https://renderman.pixar.com/resources/RenderMan_20/images/figures.insideOutside/coordsys.png)
+
+LDD coordinate System:
+
+![LDD Cooordinate System](./assets/gujobw.jpg)
+
