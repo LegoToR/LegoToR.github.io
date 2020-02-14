@@ -1,3 +1,9 @@
+## What's new with LegoToR?
+LegoToR version 0.4.8.1 delivers significant improvements to production pipelines with initial USD support, while also offering new features for look development workflows, enabled by RenderMan's USD Hydra delegate.
+
+## What is USD?
+USD is a technology developed at Pixar Animation Studios to address the challenges of feature film production. In professional environments using multiple applications (such as Maya or Katana), USD can enable an efficient and flexible collaboration, including sharing of animated geometry, materials, and lights. USD also serves as an interchange format for augmentation 3D data used by Apple in their augmented reality systems. USD support is planned or released from vendors like Autodesk and Nvidia. This new technology will play an increasingly important role across the industry.
+
 # Product Questions
 
 ## Where can I find the latest versions of Lego Digital Designer?
