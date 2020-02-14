@@ -21,3 +21,14 @@ Yes. LegoToR uses Python and should work on Linux, as does RenderMan. While no L
 # The Future Of LegoToR
 ## Does rendering make use of GPU hardware?
 Pixar has been using and developing various special purpose GPU renderers internally and there is an experimental RenderMan XPU project to combine CPU+GPU computations for faster rendering when powerful GPU processors are available – though it can always fully render with the CPU only if necessary. So far there is no external release date announced by Pixar yet. Once it is available LegoToR plans to support is as well.
+
+## What is the relationship between LegoToR and Lego or Pixar?
+LegoToR is not associated with either Lego or Pixar.
+
+# OS Specifics
+
+## LegoToR doesn't work ...?
+Create an issue in the github repository with OS information, LDD version and at best also add the LXF file and system output.
+
+## What is the biggest model size LegoToR supports?
+Limitation is more on LDD itself to create models and on your computer to render. LDD supports approximately 100k parts, but numbers depend on complexity of the parts themselves. As LDD is still a 32bit application it can not handle more then ~2GB of RAM (2GB/2GB Application/Kernel). Having said that LegoToR has no problem in converting for example the [UCS Millennium Falcon™ 75192](https://www.lego.com/en-us/product/millennium-falcon-75192) in approximately 40 seconds on my machine.
