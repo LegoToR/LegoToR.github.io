@@ -48,7 +48,6 @@ const classMap = {
   li: 'ui item'
 }
 
-
 const bindings = Object.keys(classMap)
   .map(key => ({
     type: 'output',
@@ -62,9 +61,8 @@ const conv = new showdown.Converter({
   noHeaderId: true // important to add this, else regex match doesn't work
 });
 
-
 conv.setFlavor('github');
-conv.setOption('headerLevelStart', '5');
+conv.setOption('headerLevelStart', '4');
 
 function myFunction() {
   var xhttp = new XMLHttpRequest();
@@ -664,19 +662,17 @@ function myFunction() {
 </div>
 </div>
 
-<section class="section-container">
+<section class="section-container white">
 <div class="bottom-dweller  row align-center flex-width-100" style="background-color: white;">
 <div class="columns small-11 large-7">
 <div class="community-yada">
 <div class="tabs-content" data-tabs-content="community-tabs" style="border: none;">
 <div aria-hidden="false" aria-labelledby="faq-label" class="tabs-panel is-active" id="faqtext" role="tabpanel">
-
 </div>
 </div>
 </div>
 </div>
 </div>
-
 </section>
   
 <div class="article-content-container medium text-center" style="background-color: #ffffff;">
