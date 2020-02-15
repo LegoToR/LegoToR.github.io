@@ -7,8 +7,8 @@ USD is a technology developed at Pixar Animation Studios to address the challeng
 # Product Questions
 
 ## Where can I find the latest versions of Lego Digital Designer?
-The Windows version is still available [here](https://www.lego.com/assets/franchisesites/ldd/installer/setupldd-pc-4_3_12.exe) (MD5 Checksum: 1234).
-The macOS version version is still available [here](https://www.lego.com/assets/franchisesites/ldd/installer/SetupLDD-MAC-4_3_11.zip) (SHA1 checksum: `CAB24D575BA4A62672C2E7A7CE45C8A55CD3BF3A`).
+The Windows version is still available [here](https://www.lego.com/assets/franchisesites/ldd/installer/setupldd-pc-4_3_12.exe) (SHA1 checksum: `caca02f468c26c26efe4af19d43a824ab38f62a4`).
+The macOS version version is still available [here](https://www.lego.com/assets/franchisesites/ldd/installer/SetupLDD-MAC-4_3_11.zip) (SHA1 checksum: `cab24d575ba4a62672c2e7a7ce45c8a55cd3bf3a`).
 A mirror on google drive is also available here
 
 ## LegoToR doesn't work ...?
